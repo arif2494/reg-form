@@ -35,13 +35,7 @@ body {
   font-weight: bold;
 }
 
-.a-logo {
-  background-color: #94dae8;
-}
-.b-logo {
-  background-color: #94dae8;
-}
-.c-logo {
+.sponser {
   background-color: #94dae8;
 }
 .iscr-img {
@@ -100,7 +94,7 @@ body {
     width: 90%;
   }
   .above {
-    padding-top: 10px;
+    padding-top: 20px;
   }
 }
 
@@ -132,5 +126,16 @@ body {
   }
   .from-w {
     width: 350px;
+  }
+  /* .container-fluid {
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+  } */
+  .pad-0 {
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+  }
+  .form-spacing {
+    margin-top: 10px;
   }
 }
