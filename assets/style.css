@@ -72,9 +72,14 @@ body {
     margin-top: 20px;
   }
 }
+@media screen and (min-width: 767px) {
+  .sponser {
+    width: 100vw;
+  }
+}
 @media screen and (max-width: 768px) {
   .sp-img {
-    height: 60% !important;
+    height: 55% !important;
   }
   .full-w {
     height: 100%;
@@ -90,9 +95,7 @@ body {
     position: relative;
     width: 100vw;
   }
-  .img-w {
-    width: 90%;
-  }
+
   .above {
     padding-top: 20px;
   }
@@ -137,5 +140,47 @@ body {
   }
   .form-spacing {
     margin-top: 10px;
+  }
+}
+@media screen and (max-width: 1280px) and (min-width: 901px) {
+  .sp-img {
+    height: 45% !important;
+  }
+  .from-w {
+    width: 400px;
+  }
+  .sponser {
+    position: relative;
+    width: 100vw;
+    margin-top: 50px;
+  }
+  .content {
+    font-size: 18px;
+    margin-right: 10px;
+  }
+  .above {
+    padding-top: 30px;
+  }
+}
+@media screen and (max-width: 1600px) and (min-width: 1280px) {
+  .above {
+    padding-top: 30px;
+  }
+  .sp-img {
+    height: 30% !important;
+  }
+  .sponser {
+    position: relative;
+    width: 100vw;
+    margin-top: 50px;
+  }
+}
+
+@media screen and (min-width: 1601px) {
+  .sponser {
+    width: 100vw;
+  }
+  .above {
+    padding-top: 30px;
   }
 }
