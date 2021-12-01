@@ -122,4 +122,15 @@ body {
   .c-logo {
     padding-top: 50px;
   }
+  .sponser {
+    position: relative;
+    width: 100%;
+  }
+  .content {
+    font-size: 16px;
+    margin-right: 10px;
+  }
+  .from-w {
+    width: 350px;
+  }
 }
