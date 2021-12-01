@@ -1,0 +1,35 @@
+.full-w {
+  height: 100vh;
+}
+.top-w {
+  height: 75vh;
+}
+.bottom-w {
+  height: 25vh;
+}
+.from-w {
+  width: 500px;
+}
+.middle {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.w-100 {
+  width: 100%;
+}
+.img-w {
+  width: 200px;
+}
+.partner {
+  padding: 10px 20px;
+  background-color: goldenrod;
+  color: white;
+}
+
+@media screen and (max-width: 768px) {
+  .from-w {
+    width: 100%;
+  }
+}
