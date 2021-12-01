@@ -118,7 +118,7 @@ body {
   }
   .sponser {
     position: relative;
-    width: 100%;
+    width: 100vw;
   }
   .content {
     font-size: 16px;
